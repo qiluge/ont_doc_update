@@ -14,4 +14,5 @@
 
 6. 如果`link-map.json`文件中没有新增的行，则document更新完成，可以将document直接推到GitHub上，文档中心的内容相应更新；
 
-7. 如果`link-map.json`文件中有新增的行，则需要补齐该相对链接对应的文档中心里的链接，然后再次运行main.go
+7. 如果`link-map.json`文件中有新增的行，则需要补齐该相对链接对应的文档中心里的链接，然后再次运行main.go更新本地document库，
+再将修改后的内容推到GitHub上。
