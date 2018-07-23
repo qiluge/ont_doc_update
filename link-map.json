@@ -1,0 +1,344 @@
+{"documentation/en-EN/Guidelines_for_technical_community_contributions.md[中文](../zh-CN/standard_process_for_contributor.md)":
+"./guidelines_for_technical_community_contributions_zh.html",
+"documentation/get_started_cn.md[English](./get_started_en.md)":
+"./tutorial_for_developer_en.html",
+"documentation/get_started_en.md[中文](./get_started_cn.md)":
+"./tutorial_for_developer_zh.html",
+"documentation/ontology-API/ontology_overview_sdks_en.md[中文](./ontology_overview_sdks_zh.md)":
+"./ontology_overview_sdks_zh.html",
+"documentation/ontology-API/ontology_overview_sdks_zh.md[English](./ontology_overview_sdks_en.md)":
+"./ontology_overview_sdks_en.html",
+"documentation/vbft-intro/vbft-intro-CN.md[English](./vbft-intro.md)":
+"./vbft_intro_en.html",
+"documentation/vbft-intro/vbft-intro-CN.md[VBFT Network](./images/vbft-network.jpeg)":
+"./lib/images/vbft-network.jpeg",
+"documentation/vbft-intro/vbft-intro.md[VBFT Network](./images/vbft-network.jpeg)":
+"./lib/images/vbft-network.jpeg",
+"documentation/vbft-intro/vbft-intro.md[中文](./vbft-intro-CN.md)":
+"./vbft_intro_zh.html",
+"documentation/zh-CN/standard_process_for_contributor.md[English](../en-EN/Guidelines_for_technical_community_contributions.md)":
+"./guidelines_for_technical_community_contributions_en.html",
+"ontology-DID/README.md[\u003e\u003e Learn more](./docs/en/ONTID_protocol_spec.md)":
+"./ONTID_protocol_spec_en.html",
+"ontology-DID/README.md[\u003e\u003e Learn more](./docs/en/claim_spec.md)":
+"./claim_spec_en.html",
+"ontology-DID/README.md[\u003e\u003e The Access Standard for Trust Anchor](./docs/en/verification_provider_specification.md)":
+"./verification_provider_specification_en.html",
+"ontology-DID/README.md[\u003e\u003eQuick Development Guide ](./docs/en/get_started.md)":
+"https://github.com/ontio/ontology-DID/blob/master/docs/en/get_started.html",
+"ontology-DID/README.md[Here](./resources/smart-contract/NeoVM/IdContract.avm)":
+"",
+"ontology-DID/README.md[](./images/claim_workflow.png)":
+"./lib/images/20180316233010.png",
+"ontology-DID/README.md[中文](./README_cn.md)":
+"./ontology_DID_zh.html",
+"ontology-DID/README.md[这里](./resources/smart-contract/NeoVM/IdContract.avm)":
+"",
+"ontology-DID/README_cn.md[\u003e\u003e 本体信任锚接入标准](./docs/cn/verification_provider_specification_cn.md)":
+"./verification_provider_specification_zh.html",
+"ontology-DID/README_cn.md[\u003e\u003e 详细了解](./docs/cn/ONTID_protocol_spec_cn.md)":
+"./ONTID_protocol_spec_zh.html",
+"ontology-DID/README_cn.md[\u003e\u003e 详细了解](./docs/cn/claim_spec_cn.md)":
+"./claim_spec_zh.html",
+"ontology-DID/README_cn.md[\u003e\u003e快速开发指南](./docs/en/get_started.md)":
+"https://github.com/ontio/ontology-DID/blob/master/docs/cn/get_started_cn.html",
+"ontology-DID/README_cn.md[English](./README.md)":
+"./ontology_DID_en.html",
+"ontology-DID/README_cn.md[](./images/claim_workflow_cn.png)":
+"./lib/images/20180316233010.png",
+"ontology-DID/README_cn.md[这里](./resources/smart-contract/NeoVM/IdContract.avm)":
+"",
+"ontology-DID/docs/cn/ONTID_protocol_spec_cn.md[English](../en/ONTID_protocol_spec.md)":
+"./ONTID_protocol_spec_en.html",
+"ontology-DID/docs/cn/ONTID_protocol_spec_cn.md[附录A](ONTID_protocol_spec_cn.md#a-恢复人地址)":
+"#a-恢复人地址",
+"ontology-DID/docs/cn/claim_spec_cn.md[**附录A**](claim_spec_cn.md#a-可信声明模板)":
+"#a-可信声明模板",
+"ontology-DID/docs/cn/claim_spec_cn.md[1.3节](claim_spec.md#1.3-attest-contract)":
+"#1.3-attest-contract",
+"ontology-DID/docs/cn/claim_spec_cn.md[English](../en/claim_spec.md)":
+"./claim_spec_en.html",
+"ontology-DID/docs/cn/claim_spec_cn.md[claim workflow](../../images/claim_workflow_cn.png)":
+"./lib/images/claim_workflow.png",
+"ontology-DID/docs/cn/claim_spec_cn.md[附录C](claim_spec.md#C-Revocation)":
+"#C-Revocation",
+"ontology-DID/docs/cn/verification_provider_specification_cn.md[English](../en/verification_provider_specification.md)":
+"./verification_provider_specification_en.html",
+"ontology-DID/docs/cn/verification_provider_specification_cn.md[](../../images/5a92d69de4b0874437cfe5f3.png)":
+"./lib/images/5a92d69de4b0874437cfe5f3.png",
+"ontology-DID/docs/en/ONTID_protocol_spec.md[Appendix A](ONTID_protocol_spec.md#a-recovery-account-address)":
+"#a-recovery-account-address",
+"ontology-DID/docs/en/ONTID_protocol_spec.md[中文](../cn/ONTID_protocol_spec_cn.md)":
+"./ONTID_protocol_spec_zh.html",
+"ontology-DID/docs/en/claim_spec.md[**Appendix A**](claim_spec.md#a-verifiable-claim-template)":
+"#a-verifiable-claim-template",
+"ontology-DID/docs/en/claim_spec.md[Appendix C](claim_spec.md#C-Revocation)":
+"#C-Revocation",
+"ontology-DID/docs/en/claim_spec.md[claim workflow](../../images/claim_workflow.png)":
+"./lib/images/claim_workflow.png",
+"ontology-DID/docs/en/claim_spec.md[section 1.3](claim_spec.md#1.3-attest-contract)":
+"1.3-attest-contract",
+"ontology-DID/docs/en/claim_spec.md[中文](../cn/claim_spec_cn.md)":
+"./claim_spec_zh.html",
+"ontology-DID/docs/en/verification_provider_specification.md[](../../images/5a92d69de4b0874437cfe5f4.png)":
+"./lib/images/5a92d69de4b0874437cfe5f4.png",
+"ontology-DID/docs/en/verification_provider_specification.md[中文](../cn/verification_provider_specification_cn.md)":
+"./verification_provider_specification_zh.html",
+"ontology-ddxf/README.md[\u003e\u003e DXC sample template](./demo/dex-sc-csharp/dex.cs)":
+"https://github.com/ontio/ontology-ddxf/blob/master/demo/dex-sc-csharp/dex.cs",
+"ontology-ddxf/README.md[中文](README_cn.md)":
+"./DDXF_zh",
+"ontology-ddxf/README_cn.md[English](README.md)":
+"./DDXF_en",
+"ontology-ddxf/README_cn.md[智能合约示例模板](./demo/dex-sc-csharp/dex.cs)":
+"https://github.com/ontio/ontology-ddxf/blob/master/demo/dex-sc-csharp/dex.cs",
+"ontology-java-sdk/docs/cn/README.md[English](../en/README.md)":
+"./ontology_java_sdk_en.html",
+"ontology-java-sdk/docs/cn/README.md[Getting Started](sdk_get_start.md)":
+"./ontology_java_sdk_get_start_zh.html",
+"ontology-java-sdk/docs/cn/README.md[区块链节点基本操作](basic.md)":
+"./ontology_java_sdk_basic_zh.html",
+"ontology-java-sdk/docs/cn/README.md[接口基本信息](interface.md)":
+"./ontology_java_sdk_interface_zh.html",
+"ontology-java-sdk/docs/cn/README.md[数字存证](attest.md)":
+"./ontology_java_sdk_attest_zh.html",
+"ontology-java-sdk/docs/cn/README.md[数字资产](asset.md)":
+"./ontology_java_sdk_asset_zh.html",
+"ontology-java-sdk/docs/cn/README.md[数字身份及可信声明管理](identity_claim.md)":
+"./ontology_java_sdk_identity_claim_zh.html",
+"ontology-java-sdk/docs/cn/README.md[智能合约部署和调用](smartcontract.md)":
+"./ontology_java_sdk_smartcontract_zh.html",
+"ontology-java-sdk/docs/cn/README.md[权限管理](auth.md)":
+"./ontology_java_sdk_auth_zh.html",
+"ontology-java-sdk/docs/cn/README.md[钱包文件及规范](../en/Wallet_File_Specification.md)":
+"./Wallet_File_Specification_en.html",
+"ontology-java-sdk/docs/cn/README.md[错误码](errorcode.md)":
+"./ontology_java_sdk_errorcode_zh.html",
+"ontology-java-sdk/docs/cn/asset.md[English](../en/asset.md)":
+"./ontology_java_sdk_asset_en.html",
+"ontology-java-sdk/docs/cn/asset.md[smartcontract](smartcontract.md)":
+"./ontology_java_sdk_smartcontract_zh.html",
+"ontology-java-sdk/docs/cn/attest.md[English](../en/attest.md)":
+"./ontology_java_sdk_attest_en.html",
+"ontology-java-sdk/docs/cn/auth.md[English](../en/auth.md)":
+"./auth_en.html",
+"ontology-java-sdk/docs/cn/basic.md[English](../en/basic.md)":
+"./ontology_java_sdk_basic_en.html",
+"ontology-java-sdk/docs/cn/errorcode.md[English](../en/errorcode.md)":
+"./ontology_java_sdk_errorcode_en.html",
+"ontology-java-sdk/docs/cn/identity_claim.md[English](../en/identity_claim.md)":
+"./ontology_java_sdk_identity_claim_en.html",
+"ontology-java-sdk/docs/cn/identity_claim.md[钱包文件规范](../en/Wallet_File_Specification.md)":
+"./Wallet_File_Specification_en.html",
+"ontology-java-sdk/docs/cn/interface.md[English](../en/interface.md)":
+"./ontology_java_sdk_interface_en.html",
+"ontology-java-sdk/docs/cn/sdk_get_start.md[English](../en/sdk_get_start.md)":
+"./ontology_java_sdk_get_start_en.html",
+"ontology-java-sdk/docs/cn/smartcontract.md[English](../en/smartcontract.md)":
+"./ontology_java_sdk_smartcontract_en.html",
+"ontology-java-sdk/docs/en/README.md[Auth manager](auth.md)":
+"./ontology_java_sdk_auth_en.html",
+"ontology-java-sdk/docs/en/README.md[Basic operation of blockchain nodes](basic.md)":
+"./ontology_java_sdk_basic_en.html",
+"ontology-java-sdk/docs/en/README.md[Digital Attest](attest.md)":
+"./ontology_java_sdk_attest_en.html",
+"ontology-java-sdk/docs/en/README.md[Digital assets](asset.md)":
+"./ontology_java_sdk_asset_en.html",
+"ontology-java-sdk/docs/en/README.md[Digital identity and verifable claim management](identity_claim.md)":
+"./ontology_java_sdk_identity_claim_en.html",
+"ontology-java-sdk/docs/en/README.md[Error code](errorcode.md)":
+"./ontology_java_sdk_errorcode_en.html",
+"ontology-java-sdk/docs/en/README.md[Getting Started](sdk_get_start.md)":
+"./ontology_java_sdk_get_start_en.html",
+"ontology-java-sdk/docs/en/README.md[Smart contract deployment and invocation](smartcontract.md)":
+"./ontology_java_sdk_smartcontract_en.html",
+"ontology-java-sdk/docs/en/README.md[Wallet file specification](Wallet_File_Specification.md)":
+"./Wallet_File_Specification_en.html",
+"ontology-java-sdk/docs/en/README.md[interface](interface.md)":
+"./ontology_java_sdk_interface_en.html",
+"ontology-java-sdk/docs/en/README.md[中文](../cn/README.md)":
+"./ontology_java_sdk_zh.html",
+"ontology-java-sdk/docs/en/asset.md[smartcontract](smartcontract.md)":
+"./ontology_java_sdk_smartcontract_en.html",
+"ontology-java-sdk/docs/en/asset.md[中文](../cn/asset.md)":
+"./ontology_java_sdk_asset_zh.html",
+"ontology-java-sdk/docs/en/attest.md[中文](../cn/attest.md)":
+"./ontology_java_sdk_attest_zh.html",
+"ontology-java-sdk/docs/en/auth.md[中文](../cn/auth.md)":
+"./auth_zh.html",
+"ontology-java-sdk/docs/en/basic.md[中文](../cn/basic.md)":
+"./ontology_java_sdk_basic_zh.html",
+"ontology-java-sdk/docs/en/errorcode.md[中文](../cn/errorcode.md)":
+"./ontology_java_sdk_errorcode_zh.html",
+"ontology-java-sdk/docs/en/identity_claim.md[Wallet File Specification](Wallet_File_Specification.md)":
+"./Wallet_File_Specification_en.html",
+"ontology-java-sdk/docs/en/identity_claim.md[中文](../cn/identity_claim.md)":
+"./ontology_java_sdk_identity_claim_zh.html",
+"ontology-java-sdk/docs/en/interface.md[中文](../cn/interface.md)":
+"./ontology_java_sdk_interface_zh.html",
+"ontology-java-sdk/docs/en/sdk_get_start.md[中文](../cn/sdk_get_start.md)":
+"./ontology_java_sdk_get_start_zh.html",
+"ontology-java-sdk/docs/en/smartcontract.md[中文](../cn/smartcontract.md)":
+"./ontology_java_sdk_smartcontract_zh.html",
+"ontology-smartcontract/smart-contract-tutorial/Introduction_of_Ontology_Smart_Contract.md[ontology smart contract architecture.png](./images/smartcontract_architecture.png)":
+"./lib/images/smartcontract_architecture.png",
+"ontology-smartcontract/smart-contract-tutorial/Introduction_of_Ontology_Smart_Contract.md[ontology smart contract type.png](./images/smartcontract_type.png)":
+"./lib/images/smartcontract_type.png",
+"ontology-smartcontract/smart-contract-tutorial/Introduction_of_Ontology_Smart_Contract.md[中文](Introduction_of_Ontology_Smart_Contract_cn.md)":
+"./Introduction_of_Ontology_Smart_Contract_zh.html",
+"ontology-smartcontract/smart-contract-tutorial/Introduction_of_Ontology_Smart_Contract_cn.md[English](Introduction_of_Ontology_Smart_Contract.md)":
+"./Introduction_of_Ontology_Smart_Contract_en.html",
+"ontology-smartcontract/smart-contract-tutorial/Introduction_of_Ontology_Smart_Contract_cn.md[ontology smart contract architecture.png](./images/smartcontract_architecture.png)":
+"./lib/images/smartcontract_architecture.png",
+"ontology-smartcontract/smart-contract-tutorial/Introduction_of_Ontology_Smart_Contract_cn.md[ontology smart contract type.png](./images/smartcontract_type.png)":
+"./lib/images/smartcontract_type.png",
+"ontology-smartcontract/smart-contract-tutorial/SmartX_Tutorial.md[中文](SmartX_Tutorial_cn.md)":
+"./SmartX_Tutorial_zh.html",
+"ontology-smartcontract/smart-contract-tutorial/SmartX_Tutorial_cn.md[English](SmartX_Tutorial.md)":
+"./SmartX_Tutorial_en.html",
+"ontology-smartcontract/smart-contract-tutorial/Smart_Contract_Deployment.md[How to invoke a contract](./Smart_Contract_Invocation.md)":
+"./Smart_Contract_Invocation_en.html",
+"ontology-smartcontract/smart-contract-tutorial/Smart_Contract_Deployment.md[中文](Smart_Contract_Deployment_cn.md)":
+"./Smart_Contract_Deployment_zh.html",
+"ontology-smartcontract/smart-contract-tutorial/Smart_Contract_Deployment_cn.md[English](Smart_Contract_Deployment.md)":
+"./Smart_Contract_Deployment_en.html",
+"ontology-smartcontract/smart-contract-tutorial/Smart_Contract_Deployment_cn.md[智能合约调用](./Smart_Contract_Invocation_cn.md)":
+"./Smart_Contract_Invocation_zh.html",
+"ontology-smartcontract/smart-contract-tutorial/Smart_Contract_Invocation.md[中文](Smart_Contract_Invocation_cn.md)":
+"./Smart_Contract_Invocation_zh.html",
+"ontology-smartcontract/smart-contract-tutorial/Smart_Contract_Invocation_cn.md[English](Smart_Contract_Invocation.md)":
+"./Smart_Contract_Invocation_en.html",
+"ontology-smartcontract/smart-contract-tutorial/The_Hello_World_Contract.md[SmartX Tutorial](SmartX_Tutorial.md)":
+"./SmartX_Tutorial_en.html",
+"ontology-smartcontract/smart-contract-tutorial/The_Hello_World_Contract.md[中文](The_Hello_World_Contract_cn.md)":
+"./The_Hello_World_Contract_zh.html",
+"ontology-smartcontract/smart-contract-tutorial/The_Hello_World_Contract_cn.md[English](The_Hello_World_Contract.md)":
+"./The_Hello_World_Contract_en.html",
+"ontology-smartcontract/smart-contract-tutorial/The_Hello_World_Contract_cn.md[SmartX 教程](SmartX_Tutorial_cn.md)":
+"./SmartX_Tutorial_zh.html",
+"ontology-ts-sdk/docs/cn/README.md[English](../en/README.md)":
+"./ontology_ts_sdk_en.html",
+"ontology-ts-sdk/docs/cn/README.md[数字资产](asset.md)":
+"./ontology_ts_sdk_asset_zh.html",
+"ontology-ts-sdk/docs/cn/README.md[数字身份及可信声明](identity_claim.md)":
+"./ontology_ts_sdk_identity_claim_zh.html",
+"ontology-ts-sdk/docs/cn/README.md[智能合约的部署和调用](smart_contract.md)":
+"./ontology_ts_sdk_smartcontract_zh.html",
+"ontology-ts-sdk/docs/cn/README.md[钱包文件规范](Wallet_File_Specification.md)":
+"./Wallet_File_Specification_en.html",
+"ontology-ts-sdk/docs/cn/README.md[错误码](errorcode.md)":
+"./ontology_ts_sdk_errorcode_zh.html",
+"ontology-ts-sdk/docs/cn/asset.md[English](../en/asset.md)":
+"./ontology_ts_sdk_asset_en.html",
+"ontology-ts-sdk/docs/cn/asset.md[Wallet_File_Specification](./Wallet_File_Specification.md)":
+"./Wallet_File_Specification_en.html",
+"ontology-ts-sdk/docs/cn/errorcode.md[English](../en/errorcode.md)":
+"./ontology_ts_sdk_errorcode_en.html",
+"ontology-ts-sdk/docs/cn/identity_claim.md[English](../en/identity_claim.md)":
+"./ontology_ts_sdk_identity_claim_en.html",
+"ontology-ts-sdk/docs/cn/identity_claim.md[ONT ID智能合约的设计与调用相关文档](./ONTID_protocol_spec.md/#g._事件推送)":
+"./ontology_ts_sdk_identity_claim_zh.html#g._事件推送",
+"ontology-ts-sdk/docs/cn/identity_claim.md[ONT ID生成规范](./ONTID_protocol_spec.md/#1.1_ONT_ID生成)":
+"./ontology_ts_sdk_identity_claim_zh.html#1.1_ONT_ID生成",
+"ontology-ts-sdk/docs/cn/identity_claim.md[认证服务合作方接入标准](./verification_provider_specification.md)":
+"./verification_provider_specification_zh.html",
+"ontology-ts-sdk/docs/cn/smart_contract.md[English](../en/smart_contract.md)":
+"./ontology_ts_sdk_smartcontract_en.html",
+"ontology-ts-sdk/docs/en/README.md[Deploy and invoke smart contract](smart_contract.md)":
+"./ontology_ts_sdk_smartcontract_en.html",
+"ontology-ts-sdk/docs/en/README.md[Digtal Asset](asset.md)":
+"./ontology_ts_sdk_asset_en.html",
+"ontology-ts-sdk/docs/en/README.md[Digtal Identity \u0026 Verifiable Claim](identity_claim.md)":
+"./ontology_ts_sdk_identity_claim_en.html",
+"ontology-ts-sdk/docs/en/README.md[Error Code](errorcode.md)":
+"./ontology_ts_sdk_errorcode_en.html",
+"ontology-ts-sdk/docs/en/README.md[Wallet File Specification](Wallet_File_Specification.md)":
+"./Wallet_File_Specification_en.html",
+"ontology-ts-sdk/docs/en/README.md[中文](../cn/README.md)":
+"./ontology_ts_sdk_zh.html",
+"ontology-ts-sdk/docs/en/asset.md[Wallet_File_Specification](./Wallet_File_Specification.md)":
+"./Wallet_File_Specification_en.html",
+"ontology-ts-sdk/docs/en/asset.md[中文](../cn/asset.md)":
+"./ontology_ts_sdk_asset_zh.html",
+"ontology-ts-sdk/docs/en/errorcode.md[中文](../cn/errorcode.md)":
+"./ontology_ts_sdk_errorcode_zh.html",
+"ontology-ts-sdk/docs/en/identity_claim.md[Certification Service Partner Assessment Standard](./verification_provider_specification.md)":
+"./verification_provider_specification_en.html",
+"ontology-ts-sdk/docs/en/identity_claim.md[ONT ID Generation Specifications](./ONTID_protocol_spec.md/#1.1_ONT_ID生成)":
+"./ONTID_protocol_spec_en.html",
+"ontology-ts-sdk/docs/en/identity_claim.md[中文](../cn/../cn/identity_claim.md)":
+"./ontology_ts_sdk_identity_claim_zh.html",
+"ontology-ts-sdk/docs/en/smart_contract.md[中文](../cn/smart_contract.md)":
+"./ontology_ts_sdk_smartcontract_zh.html",
+"ontology/docs/specifications/cli_user_guide.md[English|[中文](cli_user_guide_CN.md)":
+"./cli_user_guide_zh.html",
+"ontology/docs/specifications/cli_user_guide_CN.md[[English](cli_user_guide.md)":
+"./cli_user_guide_en.html",
+"ontology/docs/specifications/config.md[English | [中文](config_CN.md)":
+"./config_zh.html",
+"ontology/docs/specifications/config.md[`config-dbft.json`](config-dbft.json)":
+"https://github.com/ontio/ontology/blob/master/docs/specifications/config-dbft.json",
+"ontology/docs/specifications/config.md[`config-vbft.json`](config-vbft.json)":
+"https://github.com/ontio/ontology/blob/master/docs/specifications/config-vbft.json",
+"ontology/docs/specifications/config_CN.md[[English](config.md)":
+"./config_en.html",
+"ontology/docs/specifications/config_CN.md[`config-dbft.json`](config-dbft.json)":
+"https://github.com/ontio/ontology/blob/master/docs/specifications/config-dbft.json",
+"ontology/docs/specifications/config_CN.md[`config-vbft.json`](config-vbft.json)":
+"https://github.com/ontio/ontology/blob/master/docs/specifications/config-vbft.json",
+"ontology/docs/specifications/features.md[中文](features_CN.md)":
+"./features_zh.html",
+"ontology/docs/specifications/features_CN.md[English](features.md)":
+"./features_en.html",
+"ontology/docs/specifications/install.md[link](sigsvr.md)":
+"./sigsvr_en.html",
+"ontology/docs/specifications/install.md[中文](install_CN.md)":
+"./install_zh.html",
+"ontology/docs/specifications/install_CN.md[English](install.md)":
+"./install_en.html",
+"ontology/docs/specifications/install_CN.md[这里](sigsvr_CN.md)":
+"./sigsvr_zh.html",
+"ontology/docs/specifications/restful_api.md[example](rpc_api.md#8-sendrawtransaction)":
+"./rpc_api_en.html#8-sendrawtransaction",
+"ontology/docs/specifications/restful_api.md[中文](restful_api_CN.md)":
+"./restful_api_zh.html",
+"ontology/docs/specifications/restful_api_CN.md[English](restful_api.md)":
+"./restful_api_en.html",
+"ontology/docs/specifications/restful_api_CN.md[例子](rpc_api_CN.md#8-sendrawtransaction)":
+"rpc_api_zh.html#8-sendrawtransaction",
+"ontology/docs/specifications/rpc_api.md[中文](rpc_api_CN.md)":
+"./rpc_api_zh.html",
+"ontology/docs/specifications/rpc_api_CN.md[English](rpc_api.md)":
+"./rpc_api_en.html",
+"ontology/docs/specifications/sigsvr.md[English|[中文](sigsvr_CN.md)":
+"./sigsvr_zh.html",
+"ontology/docs/specifications/sigsvr_CN.md[[English](sigsvr.md)":
+"./sigsvr_en.html",
+"ontology/docs/specifications/testnet.md[`config-dbft.json`](config-dbft.json)":
+"https://github.com/ontio/ontology/blob/master/docs/specifications/config-dbft.json",
+"ontology/docs/specifications/testnet.md[`config-vbft.json`](config-vbft.json)":
+"https://github.com/ontio/ontology/blob/master/docs/specifications/config-vbft.json",
+"ontology/docs/specifications/testnet.md[here](config.md)":
+"./config_en.html",
+"ontology/docs/specifications/testnet.md[ontology CLI user guide](cli_user_guide.md)":
+"./cli_user_guide_en.html",
+"ontology/docs/specifications/testnet.md[中文](testnet_CN.md)":
+"./testnet_zh.html",
+"ontology/docs/specifications/testnet_CN.md[English](testnet.md)":
+"./testnet_en.html",
+"ontology/docs/specifications/testnet_CN.md[Ontology CLI 用户指引](cli_user_guide_CN.md)":
+"./cli_user_guide_zh.html",
+"ontology/docs/specifications/testnet_CN.md[`config-dbft.json`](config-dbft.json)":
+"https://github.com/ontio/ontology/blob/master/docs/specifications/config-dbft.json",
+"ontology/docs/specifications/testnet_CN.md[`config-vbft.json`](config-vbft.json)":
+"https://github.com/ontio/ontology/blob/master/docs/specifications/config-vbft.json",
+"ontology/docs/specifications/testnet_CN.md[这里](config_CN.md)":
+"./config_zh.html",
+"ontology/docs/specifications/websocket_api.md[example](rpc_api.md#8-sendrawtransaction)":
+"./rpc_api_en.html#8-sendrawtransaction",
+"ontology/docs/specifications/websocket_api.md[中文](websocket_api_CN.md)":
+"./websocket_api_zh.html",
+"ontology/docs/specifications/websocket_api_CN.md[English](websocket_api.md)":
+"./websocket_api_en.html",
+"ontology/docs/specifications/websocket_api_CN.md[例子](rpc_api_CN.md#8-sendrawtransaction)":
+"./rpc_api_zh.html#8-sendrawtransaction"}
