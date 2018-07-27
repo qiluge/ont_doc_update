@@ -24,7 +24,7 @@ const DOC_REP_PATH = "../../ontio/documentation/"
 var linkMap = make(map[string]string, 0)
 
 func main() {
-	log.InitLog(log.InfoLog, log.Stdout, log.PATH)
+	log.InitLog(log.WarnLog, log.Stdout, log.PATH)
 
 	// read doc map
 	docMapFileContent, err := ioutil.ReadFile("doc-map.json")
@@ -97,8 +97,8 @@ func download(url string) ([]byte, error) {
 		err = fmt.Errorf("download file connection err: %s, url is %s!\n", err, url)
 		return []byte{}, err
 	}
-	if err != nil || resp.StatusCode != 200 {
-		err = fmt.Errorf("download file err: %s, url is %s, response is %s!\n", err, url, resp.Status)
+	if resp.StatusCode != http.StatusOK {
+		err = fmt.Errorf("download file err: url is %s, response is %s!\n", url, resp.Status)
 		return []byte{}, err
 	}
 	utf8Decoder := mahonia.NewDecoder("utf-8")
@@ -147,16 +147,27 @@ func replaceLink(originContent, prefix string) string {
 	result := linkReg.FindAllString(originContent, -1)
 
 	for _, extractLink := range result {
-		if strings.Contains(extractLink, "http") || strings.Contains(extractLink, "html") {
+		// extractLink is [xxxx](aaa.md)
+		leftIndex := strings.Index(extractLink, "(")
+		rightIndex := strings.Index(extractLink, ")")
+		originLink := extractLink[leftIndex+1 : rightIndex]
+		linkMapKey := prefix + extractLink
+		if strings.HasPrefix(originLink, "http") || strings.Contains(originLink, "html") {
+			resp, err := http.Get(originLink)
+			if err != nil {
+				log.Errorf("check link connection err: %s, url is %s!\n", err, originLink)
+				continue
+			}
+			if resp.StatusCode == 404 {
+				log.Errorf("check link 404 err, file is %s, link is %s!\n", prefix, originLink)
+			}
+			if resp.Body != nil {
+				resp.Body.Close()
+			}
 			continue
 		}
-		// [xxxx](aaa.md)
-		linkMapKey := prefix + extractLink
 		if newLink, ok := linkMap[linkMapKey]; ok {
-			// construct new link
-			leftIndex := strings.Index(extractLink, "(")
-			newPositionLink := extractLink[:leftIndex+1] + newLink + ")"
-			originContent = strings.Replace(originContent, extractLink, newPositionLink, 1)
+			originContent = strings.Replace(originContent, originLink, newLink, 1)
 		} else {
 			linkMap[linkMapKey] = ""
 		}
