@@ -24,7 +24,7 @@ const DOC_REP_PATH = "../../ontio/documentation/"
 var linkMap = make(map[string]string, 0)
 
 func main() {
-	log.InitLog(log.WarnLog, log.Stdout, log.PATH)
+	log.InitLog(log.InfoLog, log.Stdout, log.PATH)
 
 	// read doc map
 	docMapFileContent, err := ioutil.ReadFile("doc-map.json")
