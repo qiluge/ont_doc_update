@@ -244,11 +244,11 @@
 "./verification_provider_specification_zh.html",
 "ontology-ts-sdk/docs/cn/smart_contract.md[English](../en/smart_contract.md)":
 "./ontology_ts_sdk_smartcontract_en.html",
-"ontology-ts-sdk/docs/en/README.md[Deploy and invoke smart contract](smart_contract.md)":
+"ontology-ts-sdk/docs/en/README.md[Deploy and Invoke Smart Contract](smart_contract.md)":
 "./ontology_ts_sdk_smartcontract_en.html",
-"ontology-ts-sdk/docs/en/README.md[Digtal Asset](asset.md)":
+"ontology-ts-sdk/docs/en/README.md[Digtal Assets](asset.md)":
 "./ontology_ts_sdk_asset_en.html",
-"ontology-ts-sdk/docs/en/README.md[Digtal Identity \u0026 Verifiable Claim](identity_claim.md)":
+"ontology-ts-sdk/docs/en/README.md[Digtal Identity and Verifiable Claim](identity_claim.md)":
 "./ontology_ts_sdk_identity_claim_en.html",
 "ontology-ts-sdk/docs/en/README.md[Error Code](errorcode.md)":
 "./ontology_ts_sdk_errorcode_en.html",

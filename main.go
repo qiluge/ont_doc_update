@@ -10,6 +10,7 @@ import (
 	"regexp"
 	"strings"
 	"sync"
+	"time"
 )
 
 type item struct {
@@ -88,7 +89,8 @@ func handleFile(url, filePath string, wg *sync.WaitGroup) {
 }
 
 func download(url string) ([]byte, error) {
-	resp, err := http.Get(url)
+	client := http.Client{Timeout: 60 * time.Second}
+	resp, err := client.Get(url)
 	defer func() {
 		if resp != nil && resp.Body != nil {
 			resp.Body.Close()
