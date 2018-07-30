@@ -70,6 +70,7 @@ func main() {
 func handleFile(url, filePath string, wg *sync.WaitGroup) {
 	defer wg.Done()
 
+	log.Infof("start download: url is %s!", url)
 	originContent, err := download(url)
 	if err != nil {
 		log.Error(err)
