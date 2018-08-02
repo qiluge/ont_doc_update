@@ -290,14 +290,6 @@
 "./features_zh.html",
 "ontology/docs/specifications/features_CN.md[English](features.md)":
 "./features_en.html",
-"ontology/docs/specifications/install.md[link](sigsvr.md)":
-"./sigsvr_en.html",
-"ontology/docs/specifications/install.md[中文](install_CN.md)":
-"./install_zh.html",
-"ontology/docs/specifications/install_CN.md[English](install.md)":
-"./install_en.html",
-"ontology/docs/specifications/install_CN.md[这里](sigsvr_CN.md)":
-"./sigsvr_zh.html",
 "ontology/docs/specifications/restful_api.md[example](rpc_api.md#8-sendrawtransaction)":
 "./rpc_api_en.html#8-sendrawtransaction",
 "ontology/docs/specifications/restful_api.md[中文](restful_api_CN.md)":
