@@ -3,6 +3,8 @@
     "NewPostion":"docs/pages/doc_zh/Introduction/tutorial_for_developer_zh.md"},
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/documentation/master/get_started_en.md",
     "NewPostion":"docs/pages/doc_en/Introduction/tutorial_for_developer_en.md"},
+  {"OriginalLink":"https://raw.githubusercontent.com/ontio/documentation/master/get_started_en.md",
+    "NewPostion":"docs/pages/doc_en/Introduction/index.md"},
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/documentation/master/zh-CN/standard_process_for_contributor.md",
     "NewPostion":"docs/pages/doc_zh/Introduction/guidelines_for_technical_community_contributions_zh.md"},
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/documentation/master/en-EN/Guidelines_for_technical_community_contributions.md",
@@ -150,5 +152,11 @@
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-ddxf/master/README.md",
     "NewPostion":"docs/pages/doc_en/Others/DDXF_en.md"},
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-ddxf/master/README_cn.md",
-    "NewPostion":"docs/pages/doc_zh/Others/DDXF_zh.md"}
+    "NewPostion":"docs/pages/doc_zh/Others/DDXF_zh.md"},
+  {"OriginalLink":"https://raw.githubusercontent.com/ontio/documentation/master/walletDevDocs/ontology_dapp_dev_tutorial_en.md",
+    "NewPostion":"docs/pages/doc_en/Dapp/ontology_dapp_dev_tutorial_en.md"},
+  {"OriginalLink":"https://raw.githubusercontent.com/ontio/documentation/master/walletDevDocs/ontology_wallet_dev_android_en.md",
+    "NewPostion":"docs/pages/doc_en/Dapp/ontology_wallet_dev_android_en.md"},
+  {"OriginalLink":"https://raw.githubusercontent.com/ontio/documentation/master/walletDevDocs/ontology_wallet_dev_ts_sdk_en.md",
+    "NewPostion":"docs/pages/doc_en/Dapp/ontology_wallet_dev_ts_sdk_en.md"}
 ]

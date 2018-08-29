@@ -30,24 +30,24 @@ func main() {
 	// read doc map
 	docMapFileContent, err := ioutil.ReadFile("doc-map.json")
 	if err != nil {
-		log.Errorf("read doc map err: %s \n!", err)
+		log.Errorf("read doc map err: %s!", err)
 		return
 	}
 	var docMap DocMap
 	err = json.Unmarshal(docMapFileContent, &docMap)
 	if err != nil {
-		log.Errorf("unmarshal doc map err: %s \n!", err)
+		log.Errorf("unmarshal doc map err: %s!", err)
 		return
 	}
 	// read link map
 	linkMapFileContent, err := ioutil.ReadFile("link-map.json")
 	if err != nil {
-		log.Errorf("read link map err: %s \n!", err)
+		log.Errorf("read link map err: %s!", err)
 		return
 	}
 	err = json.Unmarshal(linkMapFileContent, &linkMap)
 	if err != nil {
-		log.Errorf("unmarshal link map err: %s \n!", err)
+		log.Errorf("unmarshal link map err: %s!", err)
 		return
 	}
 	var wg = new(sync.WaitGroup)
@@ -97,11 +97,11 @@ func download(url string) ([]byte, error) {
 		}
 	}()
 	if err != nil {
-		err = fmt.Errorf("download file connection err: %s, url is %s!\n", err, url)
+		err = fmt.Errorf("download file connection err: %s, url is %s!", err, url)
 		return []byte{}, err
 	}
 	if resp.StatusCode != http.StatusOK {
-		err = fmt.Errorf("download file err: url is %s, response is %s!\n", url, resp.Status)
+		err = fmt.Errorf("download file err: url is %s, response is %s!", url, resp.Status)
 		return []byte{}, err
 	}
 	utf8Decoder := mahonia.NewDecoder("utf-8")
@@ -158,11 +158,11 @@ func replaceLink(originContent, prefix string) string {
 		if strings.HasPrefix(originLink, "http") || strings.Contains(originLink, "html") {
 			resp, err := http.Get(originLink)
 			if err != nil {
-				log.Errorf("check link connection err: %s, url is %s!\n", err, originLink)
+				log.Errorf("check link connection err: %s, url is %s!", err, originLink)
 				continue
 			}
 			if resp.StatusCode == 404 {
-				log.Errorf("check link 404 err, file is %s, link is %s!\n", prefix, originLink)
+				log.Errorf("check link 404 err, file is %s, link is %s!", prefix, originLink)
 			}
 			if resp.Body != nil {
 				resp.Body.Close()
