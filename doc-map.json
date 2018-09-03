@@ -158,5 +158,7 @@
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/documentation/master/walletDevDocs/ontology_wallet_dev_android_en.md",
     "NewPostion":"docs/pages/doc_en/Dapp/ontology_wallet_dev_android_en.md"},
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/documentation/master/walletDevDocs/ontology_wallet_dev_ts_sdk_en.md",
-    "NewPostion":"docs/pages/doc_en/Dapp/ontology_wallet_dev_ts_sdk_en.md"}
+    "NewPostion":"docs/pages/doc_en/Dapp/ontology_wallet_dev_ts_sdk_en.md"},
+  {"OriginalLink":"https://raw.githubusercontent.com/ontio/documentation/master/walletDevDocs/ontology_dapp_dev_tutorial_zh.md",
+    "NewPostion":"docs/pages/doc_en/Dapp/ontology_dapp_dev_tutorial_zh.md"}
 ]
