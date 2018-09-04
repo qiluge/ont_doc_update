@@ -1,12 +1,14 @@
 package main
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"github.com/axgle/mahonia"
 	"github.com/ontio/ontology/common/log"
 	"io/ioutil"
 	"net/http"
+	"os/exec"
 	"regexp"
 	"strings"
 	"sync"
@@ -66,6 +68,14 @@ func main() {
 	jsonString = strings.Replace(jsonString, ":\"", ":\n\"", -1)
 	jsonString = strings.Replace(jsonString, ",", ",\n", -1)
 	ioutil.WriteFile("link-map.json", []byte(jsonString), 0644)
+	mvIndexCmd := exec.Command("mv", DOC_REP_PATH+
+		"docs/pages/doc_en/Introduction/index.md", DOC_REP_PATH+"docs/pages/")
+	var out bytes.Buffer
+	mvIndexCmd.Stdout = &out
+	err = mvIndexCmd.Run()
+	if err != nil {
+		log.Errorf("mv index.md error: %s", err)
+	}
 }
 
 func handleFile(url, filePath string, wg *sync.WaitGroup) {
@@ -149,6 +159,7 @@ func replaceLink(originContent, prefix string) string {
 	linkReg := regexp.MustCompile(`\[.*?\]\([^#].*?[^html]\)`)
 	result := linkReg.FindAllString(originContent, -1)
 
+	var newMapKeys = make([]string, 0)
 	for _, extractLink := range result {
 		// extractLink is [xxxx](aaa.md)
 		leftIndex := strings.Index(extractLink, "(")
@@ -169,10 +180,16 @@ func replaceLink(originContent, prefix string) string {
 			}
 			continue
 		}
+		newMapKeys = append(newMapKeys, linkMapKey)
 		if newLink, ok := linkMap[linkMapKey]; ok {
 			originContent = strings.Replace(originContent, originLink, newLink, 1)
 		} else {
 			linkMap[linkMapKey] = ""
+		}
+	}
+	for _, link := range newMapKeys {
+		if _, ok := linkMap[link]; !ok {
+			delete(linkMap, link)
 		}
 	}
 	return originContent

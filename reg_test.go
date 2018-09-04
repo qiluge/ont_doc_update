@@ -1,8 +1,10 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
 	"io/ioutil"
+	"os/exec"
 	"regexp"
 	"strings"
 	"testing"
@@ -28,4 +30,13 @@ func TestDownload(t *testing.T) {
 	url := "https://raw.githubusercontent.com/ontio/ontology-DID/master/docs/cn/ONTID_protocol_spec_cn.md"
 	result, _ := download(url)
 	ioutil.WriteFile("test.md", result, 0644)
+}
+
+func TestCmd(t *testing.T) {
+	cmd := exec.Command("mv", "README.md", "temp.md")
+	var out bytes.Buffer
+	cmd.Stdout = &out
+	err := cmd.Run()
+	fmt.Println(err)
+	fmt.Print(out.String())
 }
