@@ -45,9 +45,11 @@
     
     NewPostion为文档文件在文档库中的相对路径。
     
-    根据这条映射，本程序会将`ontology-smartcontract`库中`master`分支下的`smart-contract-tutorial`目录下的`SmartX_Tutorial.md`转换为文档库
-    中`docs/pages/doc_en/Dapp/`目录下的`SmartX_Tutorial_en.md`。另一方面，该文件在文档中心的访问链接为
+    根据这条映射，本程序会将`ontology-smartcontract`库中`master`分支下的`smart-contract-tutorial`目录下的`SmartX_Tutorial.md`转
+    换为文档库中`docs/pages/doc_en/Dapp/`目录下的`SmartX_Tutorial_en.md`。另一方面，该文件在文档中心的访问链接为
     `https://ontio.github.io/documentation/SmartX_Tutorial_en.html`，注意该链接的后缀为`.html`，不再是`.md`了。
+    
+    另外，文档中心的英文文件统一以`_en`结尾，中文文件统一以`_zh`结尾，不要以其他方式命名。
 
 2. <b>`link-map.json`</b>
 
@@ -60,9 +62,12 @@
     "./tutorial_for_developer_en.html",
     ```
     
-    这个映射，第一行为源文件中的相对链接，源文件为`documentation`库中的`get_started_cn.md`，原链接为该文件中的`[English](./get_started_en.md)`
-    ，这说明在源文件中，点击`English`将会跳转到`./get_started_en.md`，与之对应的文档文件中的链接则为`./tutorial_for_developer_en.html`，
-    这代表在文档文件中点击`English`将会跳转到`./tutorial_for_developer_en.html`。
+    这个映射，第一行为源文件中的相对链接，源文件为`documentation`库中的`get_started_cn.md`，原链接为该文件中的
+    `[English](./get_started_en.md)`    ，这说明在源文件中，点击`English`将会跳转到`./get_started_en.md`，与之对应的文档文件中的链
+    接则为`./tutorial_for_developer_en.html`，这代表在文档文件中点击`English`将会跳转到`./tutorial_for_developer_en.html`。
+    
+    文档中心中的文档之间的相对路径关系均是在同级目录，所以文档文件之间如果要相互跳转、链接，则链接路径只需要写`./`，并且链接文件
+    为统一的`.html`文件，不再是`.md`了。
     
     处理时，该文件内容会自动检测源文件中的相对链接，如果该链接在`link-map.json`中不存在，则会将该链接添加到`link-map.json`中，并且该链接
     对应的映射链接为空。就像以下这种结构：
@@ -111,7 +116,7 @@
 
 2. 将文件中引用的图片上传到文档库中的`docs/lib/images/`目录下；
 
-3. 按照前文[所述](#本项目配置文件说明)，直接在GitHub上修改本项目库中的`doc-map.json`和`link-map.json`，修改后的文件保存做commit即可；如果只是更新
-已有的文档，则无需修改`doc-map.json`，如果新的文档不涉及相对链接的改动，则`link-map.json`也不需要改；
+3. 按照[前文](#本项目配置文件说明)所述，直接在GitHub上修改本项目库中的`doc-map.json`和`link-map.json`，修改后的文件保存做commit即可；如
+果只是更新已有的文档，则无需修改`doc-map.json`，如果新的文档不涉及相对链接的改动，则`link-map.json`也不需要改；
 
-4. 新增文档时，如果需在文档中心添加侧边栏导航链接，则需要修改文档库内`docs/lib/_data/sidebars`目录下的对应文件，增加相应的导航栏。
+4. 新增文档时，如果需在文档中心添加侧边栏导航链接，则需要修改文档库内`docs/lib/_data/sidebars`目录下的对应文件，增加相应的导航栏配置。

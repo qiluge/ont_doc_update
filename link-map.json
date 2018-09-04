@@ -143,7 +143,7 @@
 "ontology-java-sdk/docs/cn/attest.md[English](../en/attest.md)":
 "./ontology_java_sdk_attest_en.html",
 "ontology-java-sdk/docs/cn/auth.md[English](../en/auth.md)":
-"./auth_en.html",
+"./ontology_java_sdk_auth_en.html",
 "ontology-java-sdk/docs/cn/basic.md[English](../en/basic.md)":
 "./ontology_java_sdk_basic_en.html",
 "ontology-java-sdk/docs/cn/errorcode.md[English](../en/errorcode.md)":
@@ -187,7 +187,7 @@
 "ontology-java-sdk/docs/en/attest.md[中文](../cn/attest.md)":
 "./ontology_java_sdk_attest_zh.html",
 "ontology-java-sdk/docs/en/auth.md[中文](../cn/auth.md)":
-"./auth_zh.html",
+"./ontology_java_sdk_auth_zh.html",
 "ontology-java-sdk/docs/en/basic.md[中文](../cn/basic.md)":
 "./ontology_java_sdk_basic_zh.html",
 "ontology-java-sdk/docs/en/errorcode.md[中文](../cn/errorcode.md)":
