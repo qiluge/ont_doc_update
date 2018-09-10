@@ -60,6 +60,8 @@
   {"OriginalLink":"中文缺失","NewPostion":""},
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-ts-sdk/master/docs/en/Wallet_File_Specification.md",
     "NewPostion":"docs/pages/doc_en/SDKs/Wallet_File_Specification_en.md"},
+  {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-java-sdk/master/docs/cn/Wallet_File_Specification_cn.md",
+    "NewPostion":"docs/pages/doc_zh/SDKs/Wallet_File_Specification_cn.md"},
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-java-sdk/master/docs/cn/README.md",
     "NewPostion":"docs/pages/doc_zh/SDKs/ontology_java_sdk_zh.md"},
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-java-sdk/master/docs/en/README.md",
