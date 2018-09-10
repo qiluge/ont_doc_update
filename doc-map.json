@@ -102,6 +102,8 @@
     "NewPostion":"docs/pages/doc_en/SDKs/ontology_java_sdk_errorcode_en.md"},
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-python-sdk/master/README.md",
     "NewPostion":"docs/pages/doc_en/SDKs/ontology_python_sdk_en.md"},
+  {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-python-sdk/master/README.md",
+    "NewPostion":"docs/pages/doc_zh/SDKs/ontology_python_sdk_en.md"},
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-ts-sdk/master/docs/cn/README.md",
     "NewPostion":"docs/pages/doc_zh/SDKs/ontology_ts_sdk_zh.md"},
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-ts-sdk/master/docs/en/README.md",
