@@ -170,5 +170,9 @@
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/documentation/master/walletDevDocs/ontology_wallet_dev_overview_en.md",
     "NewPostion":"docs/pages/doc_en/Wallet/ontology_wallet_dev_overview_en.md"},
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/documentation/master/walletDevDocs/ontology_wallet_dev_overview_zh.md",
-    "NewPostion":"docs/pages/doc_zh/Wallet/ontology_wallet_dev_overview_zh.md"}
+    "NewPostion":"docs/pages/doc_zh/Wallet/ontology_wallet_dev_overview_zh.md"},
+  {"OriginalLink":"https://raw.githubusercontent.com/ontio/documentation/master/walletDevDocs/ontology_dapp_dapi_en.md",
+    "NewPostion":"docs/pages/doc_en/Wallet/ontology_dapp_dapi_en.md"},
+  {"OriginalLink":"https://raw.githubusercontent.com/ontio/documentation/master/walletDevDocs/ontology_dapp_dapi_zh.md",
+    "NewPostion":"docs/pages/doc_zh/Wallet/ontology_dapp_dapi_zh.md"}
 ]
