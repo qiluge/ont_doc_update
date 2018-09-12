@@ -20,6 +20,8 @@
 "./lib/images/demo.png",
 "documentation/walletDevDocs/ontology_dapp_dev_tutorial_en.md[Cyano Wallet](../docs/lib/images/cyano-wallet.png)":
 "./lib/images/cyano-wallet.png",
+"documentation/walletDevDocs/ontology_dapp_dev_tutorial_en.md[SmartX Login](../docs/lib/images/smartx.png)":
+"./lib/images/smartx.png",
 "documentation/walletDevDocs/ontology_dapp_dev_tutorial_en.md[dApp Demo Get Provider](../docs/lib/images/dappdemoregisterprovider.png)":
 "./lib/images/dappdemoregisterprovider.png",
 "documentation/walletDevDocs/ontology_dapp_dev_tutorial_en.md[dApp Demo Provider](../docs/lib/images/dappdemofirstscreen.png)":
@@ -28,12 +30,12 @@
 "./lib/images/dappdemonetworkblock.png",
 "documentation/walletDevDocs/ontology_dapp_dev_tutorial_en.md[smart contract deploy and invoke](../docs/lib/images/smartx-deploy.png)":
 "./lib/images/smartx-deploy.png",
-"documentation/walletDevDocs/ontology_dapp_dev_tutorial_en.md[SmartX Login](../docs/lib/images/smartx.png)":
-"./lib/images/smartx.png",
 "documentation/walletDevDocs/ontology_dapp_dev_tutorial_zh.md[Cyano Wallet Confirm](../docs/lib/images/demo.png)":
 "./lib/images/demo.png",
 "documentation/walletDevDocs/ontology_dapp_dev_tutorial_zh.md[Cyano Wallet](../docs/lib/images/cyano-wallet.png)":
 "./lib/images/cyano-wallet.png",
+"documentation/walletDevDocs/ontology_dapp_dev_tutorial_zh.md[SmartX Login](../docs/lib/images/smartx.png)":
+"./lib/images/smartx.png",
 "documentation/walletDevDocs/ontology_dapp_dev_tutorial_zh.md[dApp Demo Get Provider](../docs/lib/images/dappdemoregisterprovider.png)":
 "./lib/images/dappdemoregisterprovider.png",
 "documentation/walletDevDocs/ontology_dapp_dev_tutorial_zh.md[dApp Demo Provider](../docs/lib/images/dappdemofirstscreen.png)":
@@ -42,8 +44,6 @@
 "./lib/images/dappdemonetworkblock.png",
 "documentation/walletDevDocs/ontology_dapp_dev_tutorial_zh.md[smart contract deploy and invoke](../docs/lib/images/smartx-deploy.png)":
 "./lib/images/smartx-deploy.png",
-"documentation/walletDevDocs/ontology_dapp_dev_tutorial_zh.md[SmartX Login](../docs/lib/images/smartx.png)":
-"./lib/images/smartx.png",
 "documentation/walletDevDocs/ontology_wallet_dev_android_en.md[Wallet Specification](Wallet_Specification_en.md)":
 "./Wallet_File_Specification_en.html",
 "documentation/walletDevDocs/ontology_wallet_dev_ts_sdk_en.md[Wallet Specification](Wallet_Specification_en.md)":
