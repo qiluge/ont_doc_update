@@ -206,6 +206,8 @@
 "./ontology_java_sdk_interface_en.html",
 "ontology-java-sdk/docs/en/README.md[中文](../cn/README.md)":
 "./ontology_java_sdk_zh.html",
+"ontology-java-sdk/docs/en/Wallet_File_Specification_en.md[中文](../cn/Wallet_File_Specification_cn.md)":
+"./Wallet_File_Specification_cn.html",
 "ontology-java-sdk/docs/en/asset.md[smartcontract](smartcontract.md)":
 "./ontology_java_sdk_smartcontract_en.html",
 "ontology-java-sdk/docs/en/asset.md[中文](../cn/asset.md)":
