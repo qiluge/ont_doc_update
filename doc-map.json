@@ -58,7 +58,7 @@
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/documentation/master/ontology-API/ontology_overview_sdks_en.md",
     "NewPostion":"docs/pages/doc_en/SDKs/ontology_overview_sdks_en.md"},
   {"OriginalLink":"中文缺失","NewPostion":""},
-  {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-ts-sdk/master/docs/en/Wallet_File_Specification.md",
+  {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-java-sdk/master/docs/en/Wallet_File_Specification_en.md",
     "NewPostion":"docs/pages/doc_en/SDKs/Wallet_File_Specification_en.md"},
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-java-sdk/master/docs/cn/Wallet_File_Specification_cn.md",
     "NewPostion":"docs/pages/doc_zh/SDKs/Wallet_File_Specification_cn.md"},

@@ -160,6 +160,8 @@
 "./Wallet_File_Specification_en.html",
 "ontology-java-sdk/docs/cn/README.md[错误码](errorcode.md)":
 "./ontology_java_sdk_errorcode_zh.html",
+"ontology-java-sdk/docs/cn/Wallet_File_Specification_cn.md[English](../en/Wallet_File_Specification_en.md)":
+"./Wallet_File_Specification_cn.html",
 "ontology-java-sdk/docs/cn/asset.md[English](../en/asset.md)":
 "./ontology_java_sdk_asset_en.html",
 "ontology-java-sdk/docs/cn/asset.md[smartcontract](smartcontract.md)":
