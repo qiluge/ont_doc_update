@@ -139,11 +139,11 @@
 "ontology-dapi/README.md[LICENSE.md](LICENSE.md)":
 "",
 "ontology-dapi/README.md[中文](../README_cn.md)":
-"./ontology_dapp_dapi_en.html",
+"./ontology_dapp_dapi_zh.html",
 "ontology-dapi/README_cn.md[EXAMPLES.md](EXAMPLES.md)":
 "",
 "ontology-dapi/README_cn.md[English](../README.md)":
-"./ontology_dapp_dapi_zh.html",
+"./ontology_dapp_dapi_en.html",
 "ontology-dapi/README_cn.md[LICENSE.md](LICENSE.md)":
 "",
 "ontology-ddxf/README.md[\u003e\u003e DXC sample template](./demo/dex-sc-csharp/dex.cs)":
