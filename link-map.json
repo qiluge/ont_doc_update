@@ -54,10 +54,14 @@
 "./Wallet_File_Specification_en.html",
 "documentation/walletDevDocs/ontology_wallet_dev_overview_zh.md[钱包规范](Wallet_Specification_cn.md)":
 "./Wallet_File_Specification_cn.html",
+"documentation/walletDevDocs/ontology_wallet_dev_ts_sdk_en.md[NodeAuthorization.js --\u003e fetchNodeList()](https://github.com/ontio/OWallet/blob/master/src/renderer/store/modules/NodeAuthorization.js)":
+"",
 "documentation/walletDevDocs/ontology_wallet_dev_ts_sdk_en.md[Wallet Specification](Wallet_Specification_en.md)":
 "./Wallet_File_Specification_en.html",
 "documentation/walletDevDocs/ontology_wallet_dev_ts_sdk_en.md[wallet Specification](Wallet_Specification_en.md)":
 "./Wallet_File_Specification_en.html",
+"documentation/walletDevDocs/ontology_wallet_dev_ts_sdk_zh.md[NodeAuthorization.js --\u003e fetchNodeList()](https://github.com/ontio/OWallet/blob/master/src/renderer/store/modules/NodeAuthorization.js)":
+"",
 "documentation/walletDevDocs/ontology_wallet_dev_ts_sdk_zh.md[Wallet Specification](Wallet_Specification_en.md)":
 "./Wallet_File_Specification_en.html",
 "documentation/walletDevDocs/ontology_wallet_dev_ts_sdk_zh.md[钱包规范](Wallet_Specification_cn.md)":
@@ -130,6 +134,18 @@
 "./lib/images/5a92d69de4b0874437cfe5f4.png",
 "ontology-DID/docs/en/verification_provider_specification.md[中文](../cn/verification_provider_specification_cn.md)":
 "./verification_provider_specification_zh.html",
+"ontology-dapi/README.md[EXAMPLES.md](EXAMPLES.md)":
+"https://github.com/ontio/ontology-dapi/blob/master/EXAMPLES.md",
+"ontology-dapi/README.md[LICENSE.md](LICENSE.md)":
+"",
+"ontology-dapi/README.md[中文](../README_cn.md)":
+"./ontology_dapp_dapi_en.html",
+"ontology-dapi/README_cn.md[EXAMPLES.md](EXAMPLES.md)":
+"https://github.com/ontio/ontology-dapi/blob/master/EXAMPLES.md",
+"ontology-dapi/README_cn.md[English](../README.md)":
+"./ontology_dapp_dapi_zh.html",
+"ontology-dapi/README_cn.md[LICENSE.md](LICENSE.md)":
+"",
 "ontology-ddxf/README.md[\u003e\u003e DXC sample template](./demo/dex-sc-csharp/dex.cs)":
 "https://github.com/ontio/ontology-ddxf/blob/master/demo/dex-sc-csharp/dex.cs",
 "ontology-ddxf/README.md[](images/workflow.png)":
