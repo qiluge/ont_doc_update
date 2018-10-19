@@ -178,13 +178,5 @@
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-DID/master/docs/cn/products_cn.md",
     "NewPostion":"docs/pages/doc_zh/DID/products_cn.md"},
   {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-DID/master/docs/en/products.md",
-    "NewPostion":"docs/pages/doc_en/DID/products.md"},
-  {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-DID/master/docs/cn/thirdparty_kyc_cn.md",
-    "NewPostion":"docs/pages/doc_zh/DID/thirdparty_kyc_cn.md"},
-  {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-DID/master/docs/en/thirdparty_kyc.md",
-    "NewPostion":"docs/pages/doc_en/DID/thirdparty_kyc.md"},
-  {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-DID/master/docs/cn/thirdparty_login_cn.md",
-    "NewPostion":"docs/pages/doc_zh/DID/thirdparty_login_cn.md"},
-  {"OriginalLink":"https://raw.githubusercontent.com/ontio/ontology-DID/master/docs/en/thirdparty_login.md",
-    "NewPostion":"docs/pages/doc_en/DID/thirdparty_login.md"}
+    "NewPostion":"docs/pages/doc_en/DID/products.md"}
 ]
